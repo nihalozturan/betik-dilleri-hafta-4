@@ -1,0 +1,53 @@
+A=[[{
+    'isim':'ayberk',
+    'yas':'20',
+    'cinsiyet':'erkek'
+},
+    {
+        'isim':'nergiz',
+        'yas':'18',
+        'cinsiyet':'kadın'
+    }],
+    [{
+        'isim':'enes',
+        'yas':'22',
+        'cinsiyet':'erkek'
+    },
+        {
+            'isim':'atakan',
+            'yas':'19',
+            'cinsiyet':'erkek'
+    }],
+    [{
+        'isim':'mehmet',
+        'yas':'17',
+        'cinsiyet':'erkek'
+    },
+        {
+        'isim':'can',
+        'yas':'21',
+        'cinsiyet':'erkek'
+    }],
+    [{
+        'isim':'irem',
+        'yas':'20',
+        'cinsiyet':'kadın'
+    },
+        {
+            'isim':'benan',
+            'yas':'19',
+            'cinsiyet':'kadın'
+    }]
+]
+for i in A:
+    for j in i:
+        #try:
+            #print(j)
+            print(j['isim'])
+        #except:
+        #pass
+    
+    
+for j in A:
+    for k in A:
+        print(A[i][j][k])
